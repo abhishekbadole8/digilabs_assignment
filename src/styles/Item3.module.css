@@ -1,8 +1,4 @@
-
-/* Item 3 */
-
 .item3 {
-    
     background-color: #111729;
     border-radius: 40px;
     width: 100%;
@@ -42,12 +38,19 @@
 
 .activePatientsContainer {
     width: 100%;
+    height: auto;
     font-family: 'Manrope';
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 600;
     color: #FFFFFF;
     background-color: #1C2A4E;
     border-radius: 30px;
-    padding: 1.5rem 1rem;
+    padding: 1rem;
     margin: 1rem auto;
+}
+
+
+.chatRoom {
+    width: 100%;
+    height: auto;
 }
