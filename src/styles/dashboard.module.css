@@ -1,0 +1,14 @@
+.section {
+    width: 100%;
+    height: auto;
+    margin: 25px;
+    margin-left: 0;
+    background-color: #151C39;
+    border-radius: 40px;
+    padding: 30px 30px 15px 30px;
+    display: flex;
+}
+
+.gridContainer{
+    margin-right: 48px;
+}

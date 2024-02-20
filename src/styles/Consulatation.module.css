@@ -1,0 +1,42 @@
+.consultationContainer {
+    padding: 1.25rem;
+    background-color: #1B2C4F;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    /* position: relative; */
+}
+
+.content {}
+
+.consultationHeader {}
+
+.consultationHeader h5 {
+    margin-bottom: 1.25rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.consultationHeader h4 {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.growthTag {
+    background-color: #2C3A58;
+    padding: .5rem;
+    border-radius: 10px;
+    display: flex;
+    gap: .5rem;
+}
+
+.progressCircle {
+    width: 70px;
+    height: 70px;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+
+/* .optionIcon{
+position: absolute;
+} */

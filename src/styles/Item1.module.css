@@ -1,0 +1,66 @@
+.item1Container {
+    width: 800px;
+    height: auto;
+}
+
+.headerContainer {
+    display: flex;
+}
+
+.greeting {
+    font-style: 'Manrope';
+    font-size: 28px;
+    color: #fff;
+    margin-right: 1.5rem;
+}
+
+.greeting h2 {
+    font-weight: 800;
+}
+
+.greeting h3 {
+    font-weight: 400;
+}
+
+.searchContainer {
+    width: 70%;
+}
+
+.searchContainer input {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 1rem;
+    background-color: #2C3A58;
+    padding: .95rem .75rem;
+}
+
+.notificationIcon {
+    margin-left: 1rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 1rem;
+    background-color: #409BEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ----------------- */
+
+.item1Body {
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1.25rem;
+}
+
+.EventVisitedContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+

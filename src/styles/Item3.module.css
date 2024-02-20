@@ -1,0 +1,53 @@
+
+/* Item 3 */
+
+.item3 {
+    
+    background-color: #111729;
+    border-radius: 40px;
+    width: 100%;
+    height: 100%;
+    padding: 1.25rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userProfileContainer {
+    width: 110px;
+    height: 110px;
+    background-color: #FCD5D8;
+    border-radius: 50%;
+}
+
+.userProfileContainer img {
+    width: 100%;
+}
+
+.docName {
+    font-style: 'Manrope';
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-top: .75rem;
+    margin-bottom: .5rem;
+}
+
+.docFieldName {
+    color: #FFFFFF;
+    font-style: 'Inter';
+    font-size: 1rem;
+}
+
+.activePatientsContainer {
+    width: 100%;
+    font-family: 'Manrope';
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #1C2A4E;
+    border-radius: 30px;
+    padding: 1.5rem 1rem;
+    margin: 1rem auto;
+}

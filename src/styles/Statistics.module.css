@@ -1,0 +1,34 @@
+.statisticsContainer {
+    width: 450px;
+    background-color: #1B2C4F;
+    border-radius: 1.75rem;
+    padding: 1.25rem;
+}
+
+.statisticsHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading h4 {
+    color: #fff;
+    margin-bottom: .25rem;
+    font-size: 1.55rem;
+    font-weight: 700;
+}
+
+.heading p {
+    font-weight: 500;
+    font-size: .8rem;
+    color: #DCDCDC;
+}
+
+.dropdown {}
+
+.dropdown select {
+    padding: .4rem;
+    border-radius: 15px;
+    border: 1px solid #409BEE;
+    color: #DCDCDC;
+    background-color: transparent;
+}

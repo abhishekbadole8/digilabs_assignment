@@ -1,0 +1,58 @@
+.header {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 162px;
+}
+
+.companyLogo {
+    margin-top: 69px;
+    margin-bottom: 2.5rem;
+}
+
+.listContainer ul {
+    list-style: none;
+}
+
+.listItem {
+    cursor: pointer;
+}
+
+.listItem:first-child {
+    background-color: #2C3A58;
+}
+
+.listItem,
+.logoutBtn {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5rem;
+}
+
+.listItem:hover,
+.logoutBtn:hover {
+    background-color: #2C3A58;
+}
+
+.userActionContainer {
+    margin-top: auto;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.userProfileContainer {
+    width: 44px;
+    height: 44px;
+    background-color: #FCD5D8;
+    border-radius: 50%;
+    margin-bottom: 1.25rem;
+}

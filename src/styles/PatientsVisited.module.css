@@ -1,0 +1,63 @@
+.patientsVisited {
+    display: flex;
+    color: #fff;
+}
+
+.patientsVisitedHeading {
+    background-color: #1B2C4F;
+    padding: 1.25rem;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.patientsVisited h4 {
+    font-size: 2rem;
+    margin-bottom: .75rem;
+}
+
+.patientsVisited h6 {
+    font-size: 1rem;
+    margin-bottom: .2rem;
+}
+
+.patientsVisited p {
+    font-size: .75rem;
+}
+
+.peilsContainer {
+    padding: 1.5rem;
+    background-color: #2C3A58;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.peilsBack {
+    width: 50px;
+    height: 80px;
+    border-radius: 55px;
+    background-color: #409BEE;
+}
+
+/* .peilsFilled {
+    bottom: 0;
+    width: 50px;
+    height: 20px;
+    background-color: red;
+    overflow: hidden;
+} */
+
+.peilsFrontContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.peilsFront p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
