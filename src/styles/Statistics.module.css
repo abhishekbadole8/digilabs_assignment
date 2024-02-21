@@ -1,5 +1,6 @@
 .statisticsContainer {
     width: 450px;
+    height: 317px;
     background-color: #1B2C4F;
     border-radius: 1.75rem;
     padding: 1.25rem;
@@ -32,3 +33,4 @@
     color: #DCDCDC;
     background-color: transparent;
 }
+

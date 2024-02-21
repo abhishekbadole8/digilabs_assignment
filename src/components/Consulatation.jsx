@@ -21,9 +21,9 @@ function Consulatation() {
         <img src="/icons/progressCircle.svg" alt="" />
       </div>
 
-      {/* <div className={styles.optionIcon}>
-
-      </div> */}
+      <div className={styles.optionIcon}>
+        <img src="/icons/dots.svg" alt="" />
+      </div>
 
     </div>
   )

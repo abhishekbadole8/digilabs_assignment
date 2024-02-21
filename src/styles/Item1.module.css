@@ -52,15 +52,18 @@
 
 .item1Body {
     width: 100%;
+    height: auto;
     display: flex;
-    gap: 1.5rem;
+    gap: 1.75rem;
     margin-top: 1.25rem;
 }
 
 .EventVisitedContainer {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.75rem;
 }
 
 

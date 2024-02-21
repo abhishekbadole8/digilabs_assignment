@@ -1,42 +1,47 @@
 .patientsVisited {
+    width: 100%;
+    height: auto;
     display: flex;
     color: #fff;
 }
 
 .patientsVisitedHeading {
+    width: 65%;
     background-color: #1B2C4F;
-    padding: 1.25rem;
+    padding: 1.3rem;
     border-top-left-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
 }
 
 .patientsVisited h4 {
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin-bottom: .75rem;
 }
 
 .patientsVisited h6 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: .2rem;
 }
 
 .patientsVisited p {
-    font-size: .75rem;
+    font-size: .8rem;
 }
 
 .peilsContainer {
+    width: 35%;
     padding: 1.5rem;
     background-color: #2C3A58;
     border-top-right-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
+    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
 .peilsBack {
-    width: 50px;
-    height: 80px;
+    width: 55px;
+    height: 85px;
     border-radius: 55px;
     background-color: #409BEE;
 }
@@ -59,5 +64,5 @@
 .peilsFront p {
     text-align: center;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }

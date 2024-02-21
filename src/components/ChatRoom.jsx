@@ -24,48 +24,49 @@ function ChatRoom() {
 
       {/* body */}
       <div className={styles.chatBody}>
-
-        <ul className={styles.msgList}>
-          <li>
-            <div className={styles.patientMsgs}>
-
-              <div className={styles.profile}>
-                <img src="/icons/chatGirl1.svg" alt="" className={styles.userDp} />
-              </div>
-
-              <div className={styles.msgs}>
-                <ul>
-                  <li>Hi Doctor</li>
-                  <li>I got knee jerk. What
-                    should i do right now?</li>
-
-                  <p className={styles.msgTime}>tue 02:32pm</p>
-                </ul>
-              </div>
-
-            </div>
-          </li>
-
-          <li>
-            <div className={styles.doctorMsgs}>
-
-              <div className={styles.msgs}>
-                <ul>
-                  <li>Hi Doctor</li>
-                  <li>I got knee jerk. What
-                    should i do right now?</li>
-                  <p className={styles.msgTime}>tue 02:32pm</p>
-                </ul>
+        <div className={styles.messageContainer}>
+          <ul className={styles.msgList}>
+            <li>
+              <div className={styles.patientMsgs}>
 
                 <div className={styles.profile}>
                   <img src="/icons/chatGirl1.svg" alt="" className={styles.userDp} />
                 </div>
+
+                <div className={styles.pmsgs}>
+                  <ul>
+                    <li>Hi Doctor</li>
+                    <li>I got knee jerk. What
+                      should i do right now?</li>
+
+                    <p className={styles.msgTime}>tue 02:32pm</p>
+                  </ul>
+                </div>
+
               </div>
+            </li>
 
-            </div>
-          </li>
-        </ul>
+            <li>
+              <div className={styles.doctorMsgs}>
 
+                <div className={styles.dmsgs}>
+                  <ul>
+                    <li>Hi Doctor</li>
+                    <li>I got knee jerk. What
+                      should i do right now?</li>
+                    <p className={styles.msgTime}>tue 02:32pm</p>
+                  </ul>
+
+                  <div className={styles.profile}>
+                    <img src="/icons/chatGirl1.svg" alt="" className={styles.userDp} />
+                  </div>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+        </div>
       </div>
 
       {/* footer */}

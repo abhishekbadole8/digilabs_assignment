@@ -8,7 +8,6 @@ function Item3() {
             <div className={styles.userProfileContainer}>
                 <img src="/icons/Mask group.svg" alt="" />
             </div>
-            
 
             <h5 className={styles.docName}>Aliam Colter</h5>
 
@@ -16,11 +15,22 @@ function Item3() {
 
             <div className={styles.activePatientsContainer}>
                 <p>Active Patients</p>
+
+                <div className={styles.avatars}>
+                    <span className={styles.avatar}>
+                        <img src="/icons/chatGirl1.svg" alt="" />
+                    </span>
+                    <span className={styles.avatar}>
+                        <img src="/icons/cuteGirl.svg" alt="" />
+                    </span>
+                    <span className={styles.avatar}>
+                        <img src="/icons/chatGirl1.svg" alt="" />
+                    </span>
+                </div>
             </div>
 
-            <div className={styles.chatContainer}>
-                <ChatRoom />
-            </div>
+            <ChatRoom />
+
         </div>
     )
 }

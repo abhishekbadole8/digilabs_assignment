@@ -1,6 +1,6 @@
 .chatRoomContainer {
     width: 100%;
-    height: 100%;
+    height: 400px;
     border-radius: 1.75rem;
     background-color: #1C2A4E;
     color: #fff;
@@ -9,7 +9,7 @@
 
 .chatHeader {
     width: 100%;
-    padding: .35rem 0;
+    padding: .5rem 0;
     border-bottom: 1px solid #2C3A58;
 }
 
@@ -52,7 +52,7 @@
 
 .chatBody {
     width: 100%;
-    height: auto;
+    height: 70%;
     padding: .5rem;
 }
 
@@ -71,7 +71,18 @@
 }
 
 .msgs {
+    width: 100%;
+}
+
+.pmsgs {
     display: flex;
+    justify-content: start;
+}
+
+.dmsgs {
+    display: flex;
+    justify-content: end;
+
 }
 
 .msgTime {
@@ -79,12 +90,22 @@
     font-size: .75rem;
 }
 
-.msgs li {
+.messageContainer {
+    overflow-y: auto;
+    overflow: hidden;
+    max-height: 250px;
+    /* Adjust as needed */
+}
+
+.pmsgs li,
+.dmsgs li {
     color: #000;
     padding: .6rem .5rem;
-    border-radius: 14px;
+    border-radius: .75rem;
     background-color: #F1F1F1;
     margin-bottom: .5rem;
+    font-weight: 500;
+    font-size: .8rem;
 }
 
 /* footer */
@@ -92,6 +113,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    margin-top: auto;
 }
 
 .chatFooter input {
@@ -99,7 +121,7 @@
     background-color: #2C3A58;
     border-radius: 25px;
     border: none;
-    padding: 1rem 2rem;
+    padding: 1rem 2.75rem;
 }
 
 .micButton,
@@ -115,10 +137,10 @@
 }
 
 .micButton {
-    left: .75rem;
+    left: .5rem;
 }
 
 .actionButton {
-    right: .75rem;
+    right: .5rem;
     background-color: #409BEE;
 }

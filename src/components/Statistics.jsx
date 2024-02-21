@@ -17,6 +17,10 @@ function Statistics() {
                     </select>
                 </div>
             </div>
+
+            <div className={styles.statistic}>
+                <img src="/icons/Vector.svg" alt="" />
+            </div>
         </div>
     )
 }

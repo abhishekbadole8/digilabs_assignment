@@ -1,40 +1,41 @@
-
-/* Upcoming event */
 .upcomingEvents {
+    width: 100%;
     background-color: #1B2C4F;
     color: #fff;
-    padding: 1.25rem;
+    padding: 1.3rem;
     border-radius: 1.5rem;
 }
 
 .upcomingEventsHeader {
+    width: 70%;
     display: flex;
     align-items: center;
     gap: .75rem;
 }
 
 .upcomingEventsHeader h6 {
-    font-size: 1rem;
+    font-size: 1.05rem;
     color: #CCCCCC;
 }
 
 .rightArrowIcon {
     border-radius: 15px;
-    width: 32px;
-    height: 20px;
+    width: 2.2rem;
+    height: 21px;
     text-align: center;
     background-color: #409BEE;
 }
 
 .upcomingEventsBody {
-    margin-top: 1rem;
+    margin-top: 1.2rem;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .eventPoster {
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     overflow: hidden;
     border: 1px solid black;
@@ -45,22 +46,20 @@
     height: auto;
 }
 
-.eventContent {}
-
 .eventContent h4 {
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
 }
 
 .eventContent h6 {
     color: #DCDCDC;
-    font-size: .75rem;
+    font-size: .8rem;
     font-weight: 500;
     display: flex;
     align-items: center;
     gap: .5rem;
-    margin-top: .25rem;
-    margin-bottom: .75rem;
+    margin-top: .2rem;
+    margin-bottom: .8rem;
 }
 
 .visitedTag {
@@ -70,4 +69,3 @@
     background-color: #2C3A58;
     border-radius: 10px;
 }
-

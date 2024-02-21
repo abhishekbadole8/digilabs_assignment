@@ -1,10 +1,11 @@
 .consultationContainer {
-    padding: 1.25rem;
+    padding: 1.3rem;
     background-color: #1B2C4F;
     border-radius: 1.5rem;
     display: flex;
     justify-content: space-between;
     /* position: relative; */
+    position: relative;
 }
 
 .content {}
@@ -12,12 +13,13 @@
 .consultationHeader {}
 
 .consultationHeader h5 {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.45rem;
     font-weight: 700;
     font-size: 1.5rem;
 }
 
 .consultationHeader h4 {
+    margin-bottom: .25rem;
     font-weight: 500;
     font-size: 14px;
 }
@@ -31,12 +33,24 @@
 }
 
 .progressCircle {
-    width: 70px;
-    height: 70px;
-    margin-top: 1.5rem;
+    width: 68px;
+    height: 66px;
+    margin-top: 2.25rem;
     margin-right: 1rem;
 }
 
-/* .optionIcon{
-position: absolute;
-} */
+.progressCircle img {
+    width: 100%;
+}
+
+.optionIcon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 1.5rem;
+    top: 1.25rem;
+}
+
+.optionIcon img {
+    width: 100%;
+}
